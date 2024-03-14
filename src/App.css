@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 rem;
+  text-align: center;
+}
+
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.page-container {
+  flex-grow: 1;
+}
+/* App.css */
+body {
+  transition: background-color 0.5s ease;
+}
+
+.dark {
+  background-color: #1a202c;
+  color: #cbd5e0;
+}
+
+/* Add more dark mode styles as needed */
+/* App.css */
+body {
+  transition: background-color 0.5s ease;
+}
+
+.dark {
+  background-color: #1a202c;
+  color: #cbd5e0;
+}
+
+
+.navigation-buttons {
+
+  background-color: #48146b;
+  color: #e4e4e4;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+

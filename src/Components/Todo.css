@@ -1,0 +1,39 @@
+/* Todo.css */
+
+.addButton {
+    background-color: #3490dc;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #2779bd;
+  }
+  
+  .removeButton.hover {
+    background-color: #2779bd;
+  }
+  
+  .removeButton {
+
+    background-color: #48146b;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+  }
+
+
+
+  .editButton {
+
+    background-color: #48146b;
+    color: #e4e4e4;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+

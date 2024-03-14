@@ -1,0 +1,31 @@
+.homepage-services {
+    min-height: 300px; /* Adjust the height as needed */
+    opacity: 0;
+    animation: dropIn 1s ease forwards;
+  }
+  
+  @keyframes dropIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .service-item {
+    flex: 1 0 25%; /* Adjust the width of service items */
+  }
+  
+  .service-item img {
+    width: 100%;
+  }
+  
+  .service-name {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
